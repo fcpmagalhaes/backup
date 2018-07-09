@@ -1,0 +1,72 @@
+html, body{ 
+  background: url(background/caixasucti_painel_final_fundo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;  
+}
+a:link { 
+ text-decoration:none; 
+} 
+.corpo{
+  padding-top: 0%;
+}
+#ajuste_logo{
+  display: block;
+  float: right;
+  margin-right: 6%;
+  padding-top: 4%;
+  width: 30%;
+}
+
+#ajuste_menu{
+  display: block;
+  margin: auto;
+  padding-top: 8%;
+  padding-bottom: 2%;
+  width: 85%;
+}
+.radial{
+  position: absolute;
+  height: 449%;
+}
+.botoes{
+  position: absolute;
+  text-align: center;
+  right: 0%;
+  top: 170%;
+  max-width: 40%;
+}
+
+@media screen and (max-width : 991px){
+  .corpo{
+    padding-top: 2%;
+  }
+  #ajuste_logo{
+    margin: auto;
+    float: none;
+    width: 50%;
+    padding-bottom: 0%;
+  }
+  #ajuste_menu{
+    padding-bottom: 5%;
+    padding-top: 5%;   
+    width: 95%;
+  }
+  .corpo .img-responsive {
+    margin: 0 auto;
+  }
+  .radial{
+    position: static;
+  }
+  .botoes{
+    position: static;
+    display: block;
+    margin: auto;
+    right: auto;
+    padding-bottom: 5%;
+    max-width: 100%;
+  }
+}

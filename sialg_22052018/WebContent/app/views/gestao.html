@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Gestão</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app/libs/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="app/libs/css/paineis_gestao_style.css" />
+</head>
+<body>
+<script src="js/auth.js"></script>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 logo">
+       <img src="app/libs/img/caixasucti_painel_topo_interno.png" class="pull-right img-responsive">
+      </div>
+      <div class="col-xs-12 meio">
+        <div id="meio">
+          <a href="#"><img src="app/libs/img/painel/caixasucti_painel_gestaodedemandas.png" class="pull-left img-responsive"></a>
+        </div>
+        <div class="row">
+          <div class="conjunto_botoes img-responsive">
+            <ul>
+              <li>
+                <a id="id_gestao_1" ng-click="gestao01()"><img src="app/libs/img/icones_paineis/gestao_de_demandas/matriz_sistema.png"></a>
+                <a id="id_gestao_2" ng-click="gestao02()"><img src="app/libs/img/icones_paineis/gestao_de_demandas/tempo_medio_de_entrega.png"></a>
+                <a id="id_gestao_3" ng-click="gestao03()"><img src="app/libs/img/icones_paineis/gestao_de_demandas/top_30_sistemas.png"></a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a id="id_gestao_4" ng-click="gestao04()"><img src="app/libs/img/icones_paineis/gestao_de_demandas/dn_criadas_e_concluidas.png"></a>
+                <a id="id_gestao_5" ng-click="gestao05()"><img src="app/libs/img/icones_paineis/gestao_de_demandas/dn_dms_por_sistema.png"></a>
+                <a id="id_gestao_6" ng-click="gestao06()"><img src="app/libs/img/icones_paineis/gestao_de_demandas/dn_dms_por_status.png"></a>
+                <a id="id_gestao_7" ng-click="gestao07()"><img src="app/libs/img/icones_paineis/gestao_de_demandas/servicos_defeitos.png"></a>
+              </li>
+            </ul>
+            <!--FOOTER-->
+            <ul>
+              <li>
+                <div id="footer">
+                     <a href="index.html"><img src="app/libs/img/caixasucti_painel_iconvoltar.png"></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/rotas.js"></script>
+</body>
+</html>

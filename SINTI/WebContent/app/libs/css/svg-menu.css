@@ -1,0 +1,70 @@
+/*Desenvolvimento TI*/
+.des_ti{fill:#5DACC1;}
+.des_ti:hover{fill:#007d9e;}
+.des_ti:focus{fill:#007d9e;}
+/*Sistemas*/
+/* .sistemas{fill: #61C3B1;} */
+.sistemas{fill: #BFBFBF;}
+.sistemas:hover{fill:#06A084;}
+.sistemas:focus{fill:#06A084;}
+/*Orcamentos*/
+.orcamentos{fill:#99B26B;}
+.orcamentos:hover{fill:#5e8617;}
+.orcamentos:focus{fill:#5e8617;}
+/*Projetos*/
+/* .projetos{fill:#EABC65;} */
+.projetos{fill:#BFBFBF;}
+.projetos:hover{fill:#de960d;}
+.projetos:focus{fill:#de960d;}
+/*Conformidade*/
+/* .conformidades{fill:#EB9764;} */
+.conformidades{fill:#BFBFBF;}
+.conformidades:hover{fill:#e05b0b;}
+.conformidades:focus{fill:#e05b0b;}
+/*Pessoas*/
+/* .pessoas{fill:#EE745F;} */
+.pessoas{fill:#BFBFBF;}
+.pessoas:hover{fill:#7f7f7f;}
+.pessoas:focus{fill:#a14130;}
+/*BI*/
+.bi{fill:#A57ED5;}
+.bi:hover{fill:#5a12b2;}
+.bi:focus{fill:#5a12b2;}
+
+/*Relatorios*/
+.relatorios{
+    fill:#7f7f7f;
+    display: none;
+}
+.relatorios:hover{
+    fill:#404040;
+}
+/* 
+.clicked{fill:#007d9e;} */
+
+
+.des_ti:hover, .orcamentos:hover{
+    cursor:pointer;
+}
+/* .des_ti:hover, .sistemas:hover, .orcamentos:hover, .projetos:hover, .conformidades:hover, .pessoas:hover, .bi:hover, .relatorios:hover{
+    cursor:pointer;
+}
+ */
+
+/*Fundo circulo central*/
+.cls-7{fill:url(#Gradiente_botao_central);}
+/*Fonte logo*/
+.cls-8{fill:#00376c;}
+/*Fonte logo*/
+.cls-9{fill:#eb7935;}
+/*Fundo icones
+.cls-2{fill:#5a12b2;}*/
+/*Cor icones*/
+.cls-3{fill:#fff;}
+
+
+.desabilitado{
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}

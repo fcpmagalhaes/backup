@@ -1,0 +1,107 @@
+body{
+    -webkit-backface-visibility: visible;
+    z-index: 0;
+    transform-origin: 50% 50% 0px;
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-user-select: none;
+}
+#menu {
+    display: block;
+    margin: 0 auto;
+}
+a{
+    cursor: pointer;
+    outline: none;
+}
+
+.inactiveLink{
+	pointer-events: none;
+	cursor: default;
+}
+/* a:hover{
+    opacity: 1;
+} */
+g {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.menu-trigger {
+    cursor:default;
+    pointer-events: auto;
+}
+symbol {
+    overflow: visible;
+}
+/* Definição de stilo e cores de cada bot�o do men� */
+.sector, #arrow-1 {
+    transition: all .1s linear;
+    fill: #A8A8A8;
+    /* fill: #3AB0A3; cor original*/ 
+    stroke: none;
+    cursor: not-allowed;
+}
+/* contratos */
+.sector2, #arrow-2 {
+    transition: all .1s linear;
+    fill: #7DB31f;
+    stroke: none;
+}
+
+.sector3, #arrow-3 {
+    transition: all .1s linear;
+    fill: #A8A8A8;
+    /* fill: #FEB337; cor original*/
+    stroke: none;
+    cursor: not-allowed;
+}
+.sector4, #arrow-4 {
+    transition: all .1s linear;
+    fill: #A8A8A8;
+    /* fill: #FE661A; cor original*/
+    stroke: none;
+    cursor: not-allowed;
+}
+.sector5, #arrow-5 {
+    transition: all .1s linear;
+    fill: #A8A8A8;
+    /* fill: #BEAC83; cor original*/
+    stroke: none;
+    cursor: not-allowed;
+}
+/* indicadores */
+.sector6, #arrow-6 {
+    transition: all .1s linear;
+    fill: #BE894A;
+    stroke: none;
+}
+.sector7, #arrow-7 {
+    transition: all .1s linear;
+    fill: #A8A8A8;
+    /* fill: #9AAD89; cor original*/
+    stroke: none;
+    cursor: not-allowed;
+}
+.sector8, #arrow-8 {
+    transition: all .1s linear;
+    fill: #A8A8A8;
+    /* fill: #1BA7B7; cor original*/
+    stroke: none;
+    cursor: not-allowed;
+}
+
+/* itens habilitados */
+#item-2, #item-6{
+	opacity: 0.85;
+}
+#item:hover, #item-2:hover, #item-3:hover, #item-4:hover, #item-5:hover, #item-6:hover, #item-7:hover, #item-8:hover{
+    opacity: 1;
+}
+#icon-1, #icon-3, #icon-4, #icon-5, #icon-7, #icon-8{
+	cursor: not-allowed;
+}
+#text_size{
+    font-size: 110%;
+}
+
+#text_size2{
+    font-size: 120%;
+}
